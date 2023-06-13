@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sip & Savor</title>
+    <link rel="stylesheet" href="../style/shop.css">
+    
+    <script src="https://kit.fontawesome.com/6d232ec003.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="navbar" id="navbar">
+        <header>
+            <div class="logo">
+                <a href="../index.html"><label>Sip & Savor</label></a>
+            </div>
+            <div class="nav-links">
+                <li><a href="../index.html#home">Home</a></li>
+                <li><a href="../index.html#about-us">About</a></li>
+                <li><a href="./shop.html">Shop</a></li>
+                <li><a href="../index.html#contact-section">Contact</a></li>
+            </div>
+            <div class="nav-actions">
+                <button class="nav-btn">
+                    <a class="fa-solid fa-user icon" href="./login.html" target="_blank"></a>
+                    <p class="nav-action-label"><a href="./login.html" target="_blank">Sign In</a></p>
+                </button>
+                <button class="nav-btn">
+                    <a class="fa-solid fa-cart-shopping icon" href="./cart.html" target="_blank"></a>
+                    <p class="nav-action-label"><a href="./cart.html" target="_blank">Cart</a></p>
+                    <div class="btn-badge green" aria-hidden="true">3</div>
+                </button>
+            </div>
+            <div class="nav-lines">
+                <div class="line line-full"></div>
+                <div class="line line-half"></div>
+                <div class="line line-full"></div>
+            </div>
+        </header>
+    </section>
+
+    <div class="popup hidden">
+        <i class="fa-solid fa-circle-check"></i>
+        Successfully added to cart
+    </div>
+
+    <p class="option-question">What are you looking for?</p>
+    <div class="options">
+        <a href="#soft-drinks-menu" class="soft-drinks drinks-container">
+            <i class="fa-solid fa-martini-glass drink-icon"></i>
+            <p>Soft Drinks</p>
+        </a>
+        <a href="#hard-drinks-menu" class="hard-drinks drinks-container">
+            <i class="fa-solid fa-champagne-glasses drink-icon"></i>
+            <p>Hard Drinks</p>
+        </a>
+    </div>
+    <section class="soft-drinks-menu" id="soft-drinks-menu">
+        <div class="drinks-title">
+            <div class="line"></div>
+            <div class="title">Soft Drinks</div>
+            <div class="line"></div>
+        </div>
+        <div class="menu">
+            <div class="menu-card">
+                <img src="/img/blckberrylemonade.jpg" alt="drink image">
+                <div class="drink-details">
+                    <p class="drink-name" id="drink-name">Black berry lemonade</p>
+                    <p class="drink-cost" id="drink-cost"> Ksh 250.00</p>
+                </div>
+                <button class="add-to-cart">
+                    Add to Cart
+                    <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+
+            <div class="menu-card">
+                <img src="/img/mangoshake.jpg" alt="drink image">
+                <div class="drink-details">
+                    <p class="drink-name" id="drink-name">Mango Shake</p>
+                    <p class="drink-cost" id="drink-cost">Ksh 150</p>
+                </div>
+                <button class="add-to-cart">
+                    Add to Cart
+                    <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+
+            <div class="menu-card">
+                <img src="/img/icedcoffee.jpg" alt="drink image">
+                <div class="drink-details">
+                    <p class="drink-name" id="drink-name">Iced Coffee</p>
+                    <p class="drink-cost" id="drink-cost">Ksh 200.00</p>
+                </div>
+                <button class="add-to-cart">
+                    Add to Cart
+                    <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+
+            <div class="menu-card">
+                <img src="/img/pineapplejuice.jpg" alt="drink image">
+                <div class="drink-details">
+                    <p class="drink-name" id="drink-name">Pineapple Juice</p>
+                    <p class="drink-cost" id="drink-cost"> Ksh 100</p>
+                </div>
+                <button class="add-to-cart">
+                    Add to Cart
+                    <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+
+            <div class="menu-card">
+                <img src="/img/orangejuice.jpg" alt="drink image">
+                <div class="drink-details">
+                    <p class="drink-name" id="drink-name">Orange Juice</p>
+                    <p class="drink-cost" id="drink-cost">Ksh 150</p>
+                </div>
+                <button class="add-to-cart">
+                    Add to Cart
+                    <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+
+            <div class="menu-card">
+                <img src="/img/blueberryginger.jpg" alt="drink image">
+                <div class="drink-details">
+                    <p class="drink-name" id="drink-name">Blueberry Ginger Refreshener</p>
+                    <p class="drink-cost" id="drink-cost"> Ksh 100</p>
+                </div>
+                <button class="add-to-cart">
+                    Add to Cart
+                    <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+
+            <div class="menu-card">
+                <img src="/img/Obsession.jpg" alt="drink image">
+                <div class="drink-details">
+                    <p class="drink-name" id="drink-name"> Obsession</p>
+                    <p class="drink-cost" id="drink-cost">Ksh 200</p>
+                </div>
+                <button class="add-to-cart">
+                    Add to Cart
+                    <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+
+            <div class="menu-card">
+                <img src="/img/beetroot.jpg" alt="drink image">
+                <div class="drink-details">
+                    <p class="drink-name" id="drink-name">Beetroot</p>
+                    <p class="drink-cost" id="drink-cost">Ksh 300</p>
+                </div>
+                <button class="add-to-cart">
+                    Add to Cart
+                    <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+        </div>
+    </section>
+    <div class="hard-drinks-menu" id="hard-drinks-menu">
+        <div class="drinks-title">
+            <div class="line"></div>
+            <div class="title">Hard Drinks</div>
+            <div class="line"></div>
+        </div>
+        <div class="menu">
+            <div class="menu-card">
+                <img src="../img/PiscoPunch.png" alt="drink image">
+                <div class="drink-details">
+                    <p class="drink-name" id="drink-name">Pisco Punch</p>
+                    <p class="drink-cost" id="drink-cost">Ksh 200</p>
+                </div>
+                <button class="add-to-cart">
+                    Add to Cart
+                    <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+
+            <div class="menu-card">
+                <img src="../img/CorpseReviver.png" alt="drink image">
+                <div class="drink-details">
+                    <p class="drink-name" id="drink-name">Corpse Reviver</p>
+                    <p class="drink-cost" id="drink-cost">Ksh 500</p>
+                </div>
+                <button class="add-to-cart">
+                    Add to Cart
+                    <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+
+            <div class="menu-card">
+                <img src="/img/BombaySaphire.jpg" alt="drink image">
+                <div class="drink-details">
+                    <p class="drink-name" id="drink-name">Bombay Saphire</p>
+                    <p class="drink-cost" id="drink-cost">Ksh 300</p>
+                </div>
+                <button class="add-to-cart">
+                    Add to Cart
+                    <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+
+            <div class="menu-card">
+                <img src="/img/VirginMojito.jpg" alt="drink image">
+                <div class="drink-details">
+                    <p class="drink-name" id="drink-name">Virgin Mojito</p>
+                    <p class="drink-cost" id="drink-cost">Ksh 400</p>
+                </div>
+                <button class="add-to-cart">
+                    Add to Cart
+                    <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+
+            <div class="menu-card">
+                <img src="/img/tequila.jpg" alt="drink image">
+                <div class="drink-details">
+                    <p class="drink-name" id="drink-name">Tequila</p>
+                    <p class="drink-cost" id="drink-cost">Ksh 350</p>
+                </div>
+                <button class="add-to-cart">
+                    Add to Cart
+                    <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+
+            <div class="menu-card">
+                <img src="/img/JackDaniels.jpg" alt="drink image">
+                <div class="drink-details">
+                    <p class="drink-name" id="drink-name">Jack Daniels</p>
+                    <p class="drink-cost" id="drink-cost">Ksh 1000</p>
+                </div>
+                <button class="add-to-cart">
+                    Add to Cart
+                    <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+
+            <div class="menu-card">
+                <img src="/img/peargingerpiscosour.jpg" alt="drink image">
+                <div class="drink-details">
+                    <p class="drink-name" id="drink-name">Pear Ginger Pisco Sour</p>
+                    <p class="drink-cost" id="drink-cost">Ksh 200</p>
+                </div>
+                <button class="add-to-cart">
+                    Add to Cart
+                    <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+
+            <div class="menu-card">
+                <img src="../img/HankyPanky.png" alt="drink image">
+                <div class="drink-details">
+                    <p class="drink-name" id="drink-name">Hanky Panky</p>
+                    <p class="drink-cost" id="drink-cost">Ksh 250</p>
+                </div>
+                <button class="add-to-cart">
+                    Add to Cart
+                    <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---- Footer Section ---- -->
+    <section class="footer" id="foother">
+        <footer>
+            <p>Build with <i class="fa-solid fa-heart" id="heart"></i></p>
+            <p id="copyrights">&copy; Copyright Sip & Savor | All Rights Reserved</p>
+        </footer>
+    </section>
+    <script src="../script/shop.js"></script>
+</body>
+
+</html>
